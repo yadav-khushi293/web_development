@@ -1,0 +1,15 @@
+.logo{
+    
+    background: linear-gradient(to top left,pink,red);
+    border: 1px solid;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    background-color: azure;
+    
+}
+body{
+    background:linear-gradient(to bottom right,black,blue,white,red) ;
+}
