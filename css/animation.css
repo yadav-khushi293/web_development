@@ -1,72 +1,23 @@
+img{
+    width: 400px;
+    height: 400px;
+    animation-name: home;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    border: solid 1px;
+    
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-align: center;
-}
- .hello{
-    text-transform: capitalize;
-                                  
-     font-size: 85px;
-    font-family: Roboto;
-    font-weight: 700;
-    
- }
- .hello:hover{
-    transition: ease-out;
-    transition-duration: 0.5s;
-    transition-delay: 0.7s;
-    transform: scale(1.5);
- }
- .animation{
-    animation-name: Home;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-delay: 10s;
-    animation-direction: alternate;
-    text-align: center;
-    font-size: 85px;
-    font-weight: 700;
-    text-transform: capitalize;
-    font-family: Roboto;
-    background:red;
- }
-  @keyframes Home {
-    
+  
+
+ @keyframes home {
     from{
-        
-        translate: 200vw 0;
-        scale:200%;
+        transform: rotate(0deg);
     }
-    to{
-        translate: 0 0;
-        scale:100% 1;
+    to
+    {
+        transform: rotate(360deg);
     }
-}
-.heading{
-    animation-name: heading;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-delay: 10s;
-    text-align: center;
-    font-size: 85px;
-    font-weight: 700;
-    text-transform: capitalize;
-    font-family: Roboto;
-    background:blue;
-}
-@keyframes heading {
-    
-    from{
-        
-        translate: -200vw 0;
-        scale:200% 1;
-    }
-    to{
-        translate:  0 0;
-        scale:100% 1;
-    }
-}
+ }
