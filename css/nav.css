@@ -1,36 +1,151 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
 }
-img {
-  width: 150px;
-  height: 50px;
+.parent{
+        display: flex;
+        border: 1px solid black;
+        height: 80px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        background-color: whitesmoke;
+        /* gap: 1cm; */
 }
-select , option{
-  background-color: #d7e2f8;
-  border-radius: 10px;
-  height:35px ;
+.child1{
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    padding: 10px;
+    margin: 10px;
+    /* border: 1px solid red; */
 }
-.main {
-  border: 1px solid red;
-  display: flex;
-  height: 100px;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-}
-.child1 {
-  border: 1px solid green;
+.span-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3px;
 }
 
-.child2 > div,
-.child2,
-.child1,
-.child1 > div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
+option,select{
+    font-size: 17px;
+    background-color: #d7e2f8;
+    width: 134px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
 }
+.child2{
+    padding: 5px;
+    margin: 10px;
+    width: 700px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    /* gap: 2cm; */
+    display: flex;
+    /* border: 1px solid green; */
+    /* text-align: justify;
+    text-justify: inter-word;
+     */
+}
+.B1{
+    border-radius: 5px;
+    background-color: #ed0331;
+    padding: 10px;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.A1{
+    background-color: #ffd5d2;
+    color: #d56059;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 9.5px;
+    text-align: center;
+    height: 20px;
+    width: 43px;
+    font-weight: bolder;
+}
+
+.A,.A1{
+    display: flex;
+    gap: 11px;
+}
+ .B1:hover{
+    opacity: 0.5;
+}
+
+
+
+img{
+    width: 150px;
+    height: 50px;
+}
+.container{
+    display: grid;
+}
+.A2{
+    color: red;
+    gap: 2cm;
+    margin-left:15px;
+}
+h1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.B2{
+    margin-top: 5px;
+    margin-left: 15px;
+    color: red;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid red;
+
+}
+.img{
+    margin-top: 40px;
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.box3{
+    width: 400px;
+    height: 200px;
+    object-fit: cover
+}
+.container{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+}
+.box4{
+     width: 300px;
+     height: 150px;
+}
+.box5{
+    width: 300px;
+    height: 150px;
+
+    
+}
+.box6{
+    width: 280px;
+    height: 170px;   
+}
+
+.box7{
+    width: 320px;
+    height: 180px;
+}
+
+
+
+
