@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background: url(../khushi/task2/sunset-bank-river-5632825.webp);
+     background-size:cover;
+     background-repeat: no-repeat; 
+     width: 100%; 
+     height: 100vh;
+     position: fixed;
+}
+.main{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    color: aliceblue;
+    
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+.Register{
+    background-color: rgba(0,0,0,0.5);
+    width: 160%;
+    height: 90%;
+    font-size: 18px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+form{
+    margin: 30px;
+}
+input[type="text"],
+input[ type="email"]
+,input[type="number"] {
+    width: 200px;
+    height: 15px;
+    border-radius: 5px;
+}
+
