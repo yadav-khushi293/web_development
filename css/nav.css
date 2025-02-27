@@ -18,6 +18,7 @@
 .img1{
     width: 100px;
     height: 50px;
+    
 }
 .child1{
     display: flex;
@@ -89,6 +90,7 @@ option,select{
 .img{
     width: 150px;
     height: 50px;
+    
 }
 .container{
     display: grid;
@@ -126,11 +128,13 @@ li:hover{
     width: 200px;
     height: 213px;
     object-fit: cover;
+    
 }
 .box3{
     width: 400px;
     height: 213px;
     object-fit: cover
+    
 }
 .container{
  display: grid;
@@ -140,6 +144,7 @@ li:hover{
 .box4{
      width: 395px;
      height: 171px;
+     object-fit: cover;
      
      
 }
@@ -147,7 +152,7 @@ li:hover{
     width: 200px;
     height: 175px;
     margin-right: 5px;
-    
+    object-fit: cover;
     
     
 
@@ -156,13 +161,15 @@ li:hover{
 .box6{
     width: 200px;
     height: 175px;
-    margin-left: 15px;   
+    margin-left: 15px; 
+    object-fit: cover;  
 }
 
 .box7{
     width: 395px;
     height: 171px;
     margin-right: 3px;
+    object-fit: cover;
 
 }
 

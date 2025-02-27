@@ -26,8 +26,8 @@ h1{
 }
 .Register{
     background-color: rgba(0,0,0,0.5);
-    width: 160%;
-    height: 90%;
+    width: 140%;
+    height: 93%;
     font-size: 18px;
     border-radius: 10px;
     align-items: center;
@@ -35,13 +35,21 @@ h1{
     
 }
 form{
-    margin: 30px;
+
+    padding-left: 40px;
 }
 input[type="text"],
 input[ type="email"]
 ,input[type="number"] {
-    width: 200px;
-    height: 15px;
+    width: 270px;
+    height: 25px;
     border-radius: 5px;
+}
+button{
+    width: 100px;
+    height: 25px;
+    background-color: red;
+    color: aliceblue;
+    font-size: 15px;
 }
 
